@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scan Card screen -->
+    <string name="wocr_hint_position_card_in_frame">Platziere deine Karte in diesem Rahmen</string>
+    <string name="wocr_button_enter_card_number">Kartendaten manuell eingeben</string>
+    <string name="wocr_toggle_flash">Blitz einschalten</string>
+
+</resources>

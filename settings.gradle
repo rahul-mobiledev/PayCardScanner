@@ -1,0 +1,3 @@
+rootProject.name = "PayCardScanner"
+include ':app'
+include ':library'

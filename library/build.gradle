@@ -5,9 +5,23 @@ android {
     compileSdkVersion 34
     namespace 'com.rahul.paycardscanner'
 
+
     defaultConfig {
         minSdkVersion 23
         consumerProguardFiles "consumer-rules.pro"
+
+        externalNativeBuild {
+            cmake {
+                abiFilters 'armeabi-v7a', "arm64-v8a", "x86", "x86_64"
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
     }
 
     buildTypes {
@@ -20,6 +34,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    resourcePrefix "wocr_"
     publishing {
         singleVariant('release') {
             withSourcesJar()
@@ -36,7 +51,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.rahul-mobiledev'
             artifactId = 'PayCardScanner'
-            version = '1.0.2'
+            version = '1.0.3'
             afterEvaluate {
                 from components.release
             }

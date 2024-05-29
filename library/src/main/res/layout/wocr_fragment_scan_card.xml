@@ -25,7 +25,7 @@
             tools:ignore="RtlHardcoded"
             tools:visibility="visible" />
 
-        <com.rahul.library.ui.views.ButtonWithTopBorder
+        <com.rahul.paycardscanner.ui.views.ButtonWithTopBorder
             android:id="@+id/wocr_tv_enter_card_number_id"
             style="@style/wocr_EnterManuallyButton"
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
 
     </RelativeLayout>
 
-    <com.rahul.library.ui.views.ProgressBarIndeterminate
+    <com.rahul.paycardscanner.ui.views.ProgressBarIndeterminate
         android:id="@+id/wocr_progress_bar"
         android:layout_width="120dp"
         android:layout_height="120dp"

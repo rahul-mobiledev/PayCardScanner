@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.rahul.library.camera.widget.CameraPreviewLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.rahul.paycardscanner.camera.widget.CameraPreviewLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/wocr_card_recognition_view"
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.rahul.library.camera.widget.CardDetectionStateView
+    <com.rahul.paycardscanner.camera.widget.CardDetectionStateView
         android:id="@+id/wocr_card_detection_state"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -36,4 +36,4 @@
         app:wocr_layout_cardAlignGravity="bottom|left"
         tools:ignore="SpUsage" />
 
-</com.rahul.library.camera.widget.CameraPreviewLayout>
+</com.rahul.paycardscanner.camera.widget.CameraPreviewLayout>

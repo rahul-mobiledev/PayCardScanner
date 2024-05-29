@@ -14,7 +14,7 @@
         tools:context=".ui.activities.ScanCardActivity"
         tools:visibility="visible">
 
-        <com.rahul.library.ui.views.TabletCardRecognitionHolderLinearLayout
+        <com.rahul.paycardscanner.ui.views.TabletCardRecognitionHolderLinearLayout
             android:id="@+id/wocr_tablet_card_recognition_holder"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -27,7 +27,7 @@
 
             <include layout="@layout/wocr_include_card_detection_layout" />
 
-        </com.rahul.library.ui.views.TabletCardRecognitionHolderLinearLayout>
+        </com.rahul.paycardscanner.ui.views.TabletCardRecognitionHolderLinearLayout>
 
         <android.support.v7.widget.AppCompatImageButton
             android:id="@+id/wocr_iv_flash_id"
@@ -38,7 +38,7 @@
             tools:ignore="RtlHardcoded"
             tools:visibility="visible" />
 
-        <com.rahul.library.ui.views.ButtonWithTopBorder
+        <com.rahul.paycardscanner.ui.views.ButtonWithTopBorder
             android:id="@+id/wocr_tv_enter_card_number_id"
             style="@style/wocr_EnterManuallyButton"
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
 
     </RelativeLayout>
 
-    <com.rahul.library.ui.views.ProgressBarIndeterminate
+    <com.rahul.paycardscanner.ui.views.ProgressBarIndeterminate
         android:id="@+id/wocr_progress_bar"
         android:layout_width="120dp"
         android:layout_height="120dp"

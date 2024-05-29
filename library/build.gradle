@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 34
-    namespace 'com.rahul.library'
+    namespace 'com.rahul.paycardscanner'
 
     defaultConfig {
         minSdkVersion 23
@@ -36,7 +36,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.rahul-mobiledev'
             artifactId = 'PayCardScanner'
-            version = '1.0.0'
+            version = '1.0.1'
             afterEvaluate {
                 from components.release
             }
